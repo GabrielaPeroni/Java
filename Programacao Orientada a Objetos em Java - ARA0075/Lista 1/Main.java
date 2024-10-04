@@ -22,7 +22,7 @@
    POO promove a abstração, o polimorfismo, a herança e o encapsulamento de dados, simplificando o código e facilitando seu entedimento e compartilhamento.*/
 
 // PARTE II
-// CÓDIGO
+// CÓDIGO 1
 import java.util.Scanner;
 public class Main {
   public static class Animal {
@@ -310,7 +310,7 @@ public class Main {
 }
 // -----------------------------------------------------------------
 // ENCAPSULAMENTO
-//CÓDIGO 7
+//CÓDIGO 4
 import java.util.Scanner;
 public class Main {
   public static class Carro{
@@ -362,7 +362,7 @@ public class Main {
   }
 } 
 // -----------------------------------------------------------------
-//CÓDIGO 8
+//CÓDIGO 5
 import java.util.Scanner;
 public class Main {
   public static class ContaBancaria{
@@ -418,7 +418,7 @@ public class Main {
 }
 // -----------------------------------------------------------------
 // POLIMORFISMO
-//CÓDIGO 9
+//CÓDIGO 6
 import java.util.Scanner;
 public class Main {
   public static class Animal {
@@ -469,7 +469,7 @@ public class Main {
 }
 // -----------------------------------------------------------------
 // POO COMPLETO
-//CÓDIGO 10
+//CÓDIGO 7
 import java.util.Scanner;
 public class Main {
   public static class Pessoa {

@@ -14,38 +14,38 @@ de Software.
 Parte II – Aplicando os Pilares de POO em Java
 HERANÇA
 
-6. Desenvolva uma classe Animal com os atributos nome e idade. Em seguida, crie as classes
+1. Desenvolva uma classe Animal com os atributos nome e idade. Em seguida, crie as classes
   Cachorro, Gato e Passaro que herdam de Animal e acrescentam um atributo específico de
   cada classe (raca para Cachorro, corPelo para Gato e tipoBico para Passaro).
 
-7. Elabore uma classe Pessoa com os atributos nome e idade. Em seguida, crie as classes
+2. Elabore uma classe Pessoa com os atributos nome e idade. Em seguida, crie as classes
   Funcionario e Cliente que herdam de Pessoa e acrescentam um atributo específico de cada
   classe (salario para Funcionario e codigo para Cliente).
 
-8. Crie uma classe Conta com os atributos número e saldo. Em seguida, crie as classes
+3. Crie uma classe Conta com os atributos número e saldo. Em seguida, crie as classes
   ContaCorrente e ContaPoupanca que herdam de Conta e acrescentam um atributo
   específico de cada classe (limite para ContaCorrente e taxaRendimento para
   ContaPoupanca).
 
 ENCAPSULAMENTO
 
-9. Desenvolva uma classe Carro que possui dois atributos privados modelo e ano,
+4. Desenvolva uma classe Carro que possui dois atributos privados modelo e ano,
   encapsulados. Os métodos set validam os valores atribuídos, garantindo que o modelo não
   seja nulo e que o ano seja maior do que 1900.
 
-10. Elabore em Java uma classe ContaBancaria que possui dois atributos privados saldo e
+5. Elabore em Java uma classe ContaBancaria que possui dois atributos privados saldo e
   limite encapsulados com métodos get e set. Os métodos set validam os valores atribuídos,
   garantindo que o saldo não seja negativo e que o limite seja maior do que zero.
 
 POLIMORFISMO
 
-11. Desenvolva em Java uma classe Animal com um método emitirSom. As classes Cachorro,
+6. Desenvolva em Java uma classe Animal com um método emitirSom. As classes Cachorro,
   Gato e Cavalo estendem a classe Animal e sobrescrevem o método emitirSom para que seja
   executado de forma diferente em cada uma dessas classes.
 
         POO COMPLETO: ABSTRAÇÃO, ENCAPSULAMENTO, HERANÇA E POLIMORFISMO
 
-12. A classe Pessoa é a classe base que contém informações comuns a todos os objetos do
+7. A classe Pessoa é a classe base que contém informações comuns a todos os objetos do
   tipo pessoa. A classe Aluno herda da classe Pessoa e adiciona uma propriedade matricula. A
   classe Professor também herda da classe Pessoa e adiciona uma propriedade disciplina.
   Ambas as classes filhas sobrescrevem o método exibirDados para exibir informações

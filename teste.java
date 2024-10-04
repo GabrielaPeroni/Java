@@ -108,3 +108,62 @@ public class ClasseObjetos{
     }
    }
   }
+public class Main {
+  public static class UmExemploRunnable implements Runnable{
+    private int contador;
+    private int limite;
+
+    public UmExemploRunnable(int limite){
+      this.limite = limite;
+      this.contador = 0;
+    }
+  
+  /*public static class ExemploThread extends thread{*/
+
+  public void run(){
+    while (contador < limite){
+      System.out.println(contador + " " + Thread.currentThread().getName());
+      contador++;
+    }
+      try{
+        Thread.sleep((long)(10000));
+      }catch(InterruptedException error){}
+    }
+  }
+  
+  public static void main(String[] args) {
+    
+    
+    /* TESTE 3
+    ExemploThread thread = new ExemploThread();
+    thread.start(); // Iniciando thread*/
+    
+    System.out.println("Iniciando threads--");
+
+    UmExemploRunnable Teste_1 = new UmExemploRunnable(200);
+    Thread t1 = new Thread(Teste_1);
+    t1.setName ("My thread 1");
+    UmExemploRunnable Teste_2 = new UmExemploRunnable(200);
+    Thread t2 = new Thread(Teste_2);
+    t2.setName ("My thread 2");
+    
+    t1.start();
+    t2.start();
+    
+    /* TESTE 1--
+    Thread thread_1 =  new Thread();
+    Thread thread_2 =  new Thread();
+
+    System.out.println("Iniciando threads--");
+    thread_1.start();
+    thread_2.start();
+
+    try{
+      thread_1.join();
+      thread_2.join();
+      
+    }catch(InterruptedException error){
+      System.out.println("Fim da thread--");
+    }*/
+  }
+}
